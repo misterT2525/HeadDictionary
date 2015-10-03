@@ -2,6 +2,9 @@
 
 Head Dictionaryは、簡単に使えるモブヘッドを出すためのBukkit Pluginです
 
+* [Jenkins](http://jenkins.nekonekoserver.net/job/HeadDictionary/)(最新開発版はここからダウンロード可能)  
+  ※このJenkinsの管理は、プラグイン作者ではなくNekoneko Networkによって行われています。
+
 ## 注意事項
 
 * Java 8の新機能を利用しているため、Java 7以前では動きません
@@ -17,8 +20,11 @@ Head Dictionaryは、簡単に使えるモブヘッドを出すためのBukkit P
 
 ## コマンド
 
-`/heads <辞書名>`で仮想インベントリが開きます  
-又、`/heads search <キーワード>`で検索を行うことも出来ます
+コマンド | 説明
+------- | ----
+`/heads` | 全てのヘッドを表示します
+`/heads <辞書名>` | 辞書名に対応したヘッドを表示します
+`/heads search <キーワード>` | キーワードを元に検索します<br>正規表現を利用出来ます
 
 ## デフォルト辞書
 
