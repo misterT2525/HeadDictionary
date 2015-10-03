@@ -44,6 +44,7 @@ public class HeadDictionary extends JavaPlugin {
     @Override
     public void onDisable() {
         headManager = null;
+        inventoryManager = null;
     }
 
     public void openHeadsMenu(Player player, String name, List<Head> heads) {
