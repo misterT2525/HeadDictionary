@@ -55,6 +55,7 @@ public class HeadsCommand implements TabExecutor {
         }
 
         sender.sendMessage(ChatColor.RED + "使い方: /heads <辞書名>");
+        sender.sendMessage(ChatColor.RED + "使い方: /heads search <キーワード>");
         return false;
     }
 
