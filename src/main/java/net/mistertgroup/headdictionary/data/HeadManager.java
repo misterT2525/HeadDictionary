@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.logging.Level;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -82,12 +83,12 @@ public class HeadManager {
 
     public List<Head> findMatchHeads(@NonNull String q) {
         List<Head> headList = new ArrayList<>();
-        String lower = q.toLowerCase();
 
-        // TODO: AND検索とか？
+        Pattern pattern = Pattern.compile(q, Pattern.CASE_INSENSITIVE);
+
         headList.addAll(getAllHeads().stream()
-                .filter(head -> head.getName().toLowerCase().contains(lower))
-                .collect(Collectors.toList()));
+            .filter(head -> pattern.matcher(head.getName()).find())
+            .collect(Collectors.toList()));
 
         return Collections.unmodifiableList(headList);
     }
