@@ -27,6 +27,9 @@ public class InventoryListener implements Listener {
         if (!(event.getInventory().getHolder() instanceof OpeningPagedInventoryMenu)) {
             return;
         }
+        if (event.getSlot() < 0) {
+            return;
+        }
         OpeningPagedInventoryMenu inventory = ((OpeningPagedInventoryMenu) event.getInventory().getHolder());
 
         if (event.getSlot() < 45) {
