@@ -34,7 +34,11 @@ public class InventoryListener implements Listener {
 
         if (event.getSlot() < 45) {
             // Refill
-            ItemStack item = inventory.getInventory().getItem(event.getSlot()).clone();
+            ItemStack item = inventory.getInventory().getItem(event.getSlot());
+            if (item == null) {
+                event.setCancelled(true);
+                return;
+            }
             item.setAmount(1);
             new BukkitRunnable() {
                 @Override
