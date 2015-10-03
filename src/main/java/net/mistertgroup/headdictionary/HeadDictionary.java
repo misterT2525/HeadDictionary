@@ -10,7 +10,9 @@ import lombok.Getter;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.mcstats.Metrics;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,6 +28,13 @@ public class HeadDictionary extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        try {
+            Metrics metrics = new Metrics(this);
+            metrics.start();
+        } catch (IOException e) {
+            // Ignore
+        }
+
         headManager = new HeadManager(this);
         inventoryManager = new InventoryManager(this);
 
