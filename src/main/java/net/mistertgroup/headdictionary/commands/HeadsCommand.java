@@ -30,7 +30,7 @@ public class HeadsCommand implements TabExecutor {
 
         if (args.length == 0 || args.length == 1) {
             String key = args.length == 1 ? args[0] : "default";
-            List<Head> heads = plugin.getManager().getHeads(key);
+            List<Head> heads = plugin.getHeadManager().getHeads(key);
             if (heads == null) {
                 sender.sendMessage(ChatColor.RED + "存在しない辞書です");
                 return false;
@@ -47,7 +47,7 @@ public class HeadsCommand implements TabExecutor {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command cmd, String label, String[] args) {
         if (args.length == 1) {
-            return TabCompleteUtils.complete(args[0], plugin.getManager().getHeads().keySet());
+            return TabCompleteUtils.complete(args[0], plugin.getHeadManager().getHeads().keySet());
         }
         return null;
     }

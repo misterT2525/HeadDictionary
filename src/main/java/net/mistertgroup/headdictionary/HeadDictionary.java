@@ -3,14 +3,16 @@ package net.mistertgroup.headdictionary;
 import net.mistertgroup.headdictionary.commands.HeadsCommand;
 import net.mistertgroup.headdictionary.data.Head;
 import net.mistertgroup.headdictionary.data.HeadManager;
+import net.mistertgroup.headdictionary.inventory.InventoryManager;
+import net.mistertgroup.headdictionary.inventory.PagedInventoryMenu;
 
 import lombok.Getter;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author misterT2525
@@ -18,29 +20,26 @@ import java.util.List;
 public class HeadDictionary extends JavaPlugin {
 
     @Getter
-    private HeadManager manager;
+    private HeadManager headManager;
+    @Getter
+    private InventoryManager inventoryManager;
 
     @Override
     public void onEnable() {
-        manager = new HeadManager(this);
+        headManager = new HeadManager(this);
+        inventoryManager = new InventoryManager(this);
 
         getCommand("heads").setExecutor(new HeadsCommand(this));
     }
 
     @Override
     public void onDisable() {
-        manager = null;
+        headManager = null;
     }
 
     public void openHeadsMenu(Player player, String name, List<Head> heads) {
-        int size = heads.size();
-        size += 9 - (size % 9);// インベントリのサイズが9単位じゃないといけないため
-        Inventory inventory = Bukkit.createInventory(null, size, "Head Dictionary - " + name);
-
-        for (int i = 0; i < heads.size(); i++) {
-            inventory.setItem(i, manager.getItem(heads.get(i)));
-        }
-
-        player.openInventory(inventory);
+        PagedInventoryMenu menu = inventoryManager.createPagedInventoryMenu("Head Dictionary - " + name);
+        menu.getItems().addAll(heads.stream().<ItemStack>map(headManager::getItem).collect(Collectors.toList()));
+        menu.openInventory(player);
     }
 }
