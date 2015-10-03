@@ -2,6 +2,7 @@ package net.mistertgroup.headdictionary.inventory;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -46,9 +47,15 @@ public class InventoryListener implements Listener {
 
         if (event.getSlot() == 48 && inventory.getPage() != 0) {
             inventory.setPage(inventory.getPage() - 1);
+            makeClickSound(inventory.getPlayer());
         }
         if (event.getSlot() == 50 && inventory.getPage() != inventory.getMenu().getLastPage()) {
             inventory.setPage(inventory.getPage() + 1);
+            makeClickSound(inventory.getPlayer());
         }
+    }
+
+    private void makeClickSound(Player player) {
+        player.playSound(player.getEyeLocation(), Sound.CLICK, 1, 1);
     }
 }
