@@ -31,8 +31,12 @@ public class HeadsCommand implements TabExecutor {
             return false;
         }
 
-        if (args.length == 0 || args.length == 1) {
-            String key = args.length == 1 ? args[0] : "default";
+        if (args.length == 0) {
+            plugin.openHeadsMenu(((Player) sender), "All", plugin.getHeadManager().getAllHeads());
+            return true;
+        }
+        if (args.length == 1) {
+            String key = args[0];
             List<Head> heads = plugin.getHeadManager().getHeads(key);
             if (heads == null || heads.size() == 0) {
                 sender.sendMessage(ChatColor.RED + "存在しない辞書です");
@@ -54,6 +58,7 @@ public class HeadsCommand implements TabExecutor {
             return true;
         }
 
+        sender.sendMessage(ChatColor.RED + "使い方: /heads");
         sender.sendMessage(ChatColor.RED + "使い方: /heads <辞書名>");
         sender.sendMessage(ChatColor.RED + "使い方: /heads search <キーワード>");
         return false;
