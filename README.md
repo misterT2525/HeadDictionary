@@ -52,3 +52,4 @@ Head Dictionaryは、簡単に使えるモブヘッドを出すためのBukkit P
 ## Special Thanks
 
 * [FreshCoal](http://heads.freshcoal.com/maincollection.php) - デフォルトの辞書データ
+* [NekonekoNetwork](https://www.nekonekoserver.net/) - Jenkinsの提供
