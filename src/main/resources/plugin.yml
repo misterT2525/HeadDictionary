@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}-${git.commit.id.abbrev}
+description: ${project.description}
+author: mrT_japan(@misterT2525)
+website: ${project.url}
+main: net.mistertgroup.headdictionary.HeadDictionary
+depend: [ProtocolLib]
+commands:
+  heads:
+    permission: headdictionary.use
