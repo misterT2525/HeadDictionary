@@ -43,7 +43,7 @@ public class InventoryListener implements Listener {
             public void run() {
                 cooltime.remove(inventory.getPlayer());
             }
-        }.runTaskLater(manager.getPlugin(), 10);
+        }.runTaskLater(manager.getPlugin(), 5);
 
         if (event.getSlot() == 48 && inventory.getPage() != 0) {
             inventory.setPage(inventory.getPage() - 1);
