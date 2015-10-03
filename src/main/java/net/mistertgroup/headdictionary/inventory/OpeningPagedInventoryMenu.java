@@ -4,6 +4,7 @@ import net.mistertgroup.headdictionary.utils.ItemUtils;
 
 import lombok.Getter;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
@@ -50,20 +51,27 @@ public class OpeningPagedInventoryMenu implements InventoryHolder {
         }
 
         if (page != 0) {
-            ItemStack item = new ItemStack(Material.ARROW);
-            ItemUtils.setDisplayName(item, "<= Previous page (" + (page) + " page)");
+            ItemStack item = new ItemStack(Material.ARROW, page);
+            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "<== Previous", ChatColor.GRAY.toString() + page + " page");
             inventory.setItem(48, item);
         } else {
             inventory.setItem(48, null);
         }
 
         if (page != menu.getLastPage()) {
-            ItemStack item = new ItemStack(Material.ARROW);
-            ItemUtils.setDisplayName(item, "Next page (" + (page + 2) + " page) ==>");
+            int displayPage = page + 2;
+
+            ItemStack item = new ItemStack(Material.ARROW, displayPage);
+            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "Next ==>", ChatColor.GRAY.toString() + displayPage + " page");
             inventory.setItem(50, item);
         } else {
             inventory.setItem(50, null);
         }
+
+        int displayName = page + 1;
+        ItemStack item = new ItemStack(Material.STAINED_GLASS_PANE, displayName, (short) 8);
+        ItemUtils.setDisplayName(item, ChatColor.GREEN + "Now Page: " + displayName + " page");
+        inventory.setItem(49, item);
 
         this.page = page;
     }
