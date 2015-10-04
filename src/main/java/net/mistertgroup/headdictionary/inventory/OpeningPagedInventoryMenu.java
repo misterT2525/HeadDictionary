@@ -52,7 +52,7 @@ public class OpeningPagedInventoryMenu implements InventoryHolder {
 
         if (page != 0) {
             ItemStack item = new ItemStack(Material.ARROW, page);
-            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "<== Previous", ChatColor.GRAY.toString() + page + " page");
+            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "<== Previous", ChatColor.GRAY + "Page " + page);
             inventory.setItem(48, item);
         } else {
             inventory.setItem(48, null);
@@ -62,15 +62,15 @@ public class OpeningPagedInventoryMenu implements InventoryHolder {
             int displayPage = page + 2;
 
             ItemStack item = new ItemStack(Material.ARROW, displayPage);
-            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "Next ==>", ChatColor.GRAY.toString() + displayPage + " page");
+            ItemUtils.setDisplayNameAndLore(item, ChatColor.GREEN + "Next ==>", ChatColor.GRAY + "Page " + displayPage);
             inventory.setItem(50, item);
         } else {
             inventory.setItem(50, null);
         }
 
-        int displayName = page + 1;
-        ItemStack item = new ItemStack(Material.STAINED_GLASS_PANE, displayName, (short) 8);
-        ItemUtils.setDisplayName(item, ChatColor.GREEN + "Now Page: " + displayName + " page");
+        int displayPage = page + 1;
+        ItemStack item = new ItemStack(Material.STAINED_GLASS_PANE, displayPage, (short) 8);
+        ItemUtils.setDisplayName(item, ChatColor.GREEN + "Now Page: " + displayPage);
         inventory.setItem(49, item);
 
         this.page = page;
