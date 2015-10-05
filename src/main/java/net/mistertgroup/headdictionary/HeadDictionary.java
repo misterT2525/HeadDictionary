@@ -48,7 +48,7 @@ public class HeadDictionary extends JavaPlugin {
     }
 
     public void openHeadsMenu(Player player, String name, List<Head> heads) {
-        PagedInventoryMenu menu = inventoryManager.createPagedInventoryMenu("Head Dictionary - " + name);
+        PagedInventoryMenu menu = inventoryManager.createPagedInventoryMenu(name);
         menu.getItems().addAll(heads.stream().<ItemStack>map(headManager::getItem).collect(Collectors.toList()));
         menu.openInventory(player);
     }

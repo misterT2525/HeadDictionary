@@ -32,7 +32,7 @@ public class HeadsCommand implements TabExecutor {
         }
 
         if (args.length == 0) {
-            plugin.openHeadsMenu(((Player) sender), "All", plugin.getHeadManager().getAllHeads());
+            plugin.openHeadsMenu(((Player) sender), "All Heads", plugin.getHeadManager().getAllHeads());
             return true;
         }
         if (args.length == 1) {
@@ -53,7 +53,7 @@ public class HeadsCommand implements TabExecutor {
                 sender.sendMessage(ChatColor.RED + "結果が見つかりませんでした");
                 return false;
             }
-            plugin.openHeadsMenu(((Player) sender), "Result", heads);// タイトルの長さに引っかかる
+            plugin.openHeadsMenu(((Player) sender), "Search result", heads);
 
             return true;
         }
