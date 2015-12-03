@@ -44,6 +44,7 @@ Head Dictionaryは、簡単に使えるモブヘッドを出すためのBukkit P
 * `characters`
 * `pokemon`
 * `services`
+* `xmas`
 
 ## ヘッドの追加
 
