@@ -1,0 +1,242 @@
+[
+  {
+    "name": "0",
+    "url": "http://textures.minecraft.net/texture/0ebe7e5215169a699acc6cefa7b73fdb108db87bb6dae2849fbe24714b27",
+    "uuid": "2298cff2-c1a5-4278-a277-8d8661afe1c6"
+  },
+  {
+    "name": "1",
+    "url": "http://textures.minecraft.net/texture/71bc2bcfb2bd3759e6b1e86fc7a79585e1127dd357fc202893f9de241bc9e530",
+    "uuid": "00684a88-5cc8-4713-9e91-7b1906e67580"
+  },
+  {
+    "name": "2",
+    "url": "http://textures.minecraft.net/texture/4cd9eeee883468881d83848a46bf3012485c23f75753b8fbe8487341419847",
+    "uuid": "f7218833-aceb-4d3e-a1bc-a334be09c375"
+  },
+  {
+    "name": "3",
+    "url": "http://textures.minecraft.net/texture/1d4eae13933860a6df5e8e955693b95a8c3b15c36b8b587532ac0996bc37e5",
+    "uuid": "870c6ce6-78b5-4e09-8745-bd96d616e516"
+  },
+  {
+    "name": "4",
+    "url": "http://textures.minecraft.net/texture/d2e78fb22424232dc27b81fbcb47fd24c1acf76098753f2d9c28598287db5",
+    "uuid": "d531b607-3d92-4760-b19f-b64d51da0fa5"
+  },
+  {
+    "name": "5",
+    "url": "http://textures.minecraft.net/texture/6d57e3bc88a65730e31a14e3f41e038a5ecf0891a6c243643b8e5476ae2",
+    "uuid": "4aaa0af9-ffde-4f5a-ad06-112dffbade0c"
+  },
+  {
+    "name": "6",
+    "url": "http://textures.minecraft.net/texture/334b36de7d679b8bbc725499adaef24dc518f5ae23e716981e1dcc6b2720ab",
+    "uuid": "58a05887-3473-4c87-8506-2acf877d7ff1"
+  },
+  {
+    "name": "7",
+    "url": "http://textures.minecraft.net/texture/6db6eb25d1faabe30cf444dc633b5832475e38096b7e2402a3ec476dd7b9",
+    "uuid": "23378bd2-28e5-4d7e-8d39-621b732e1f49"
+  },
+  {
+    "name": "8",
+    "url": "http://textures.minecraft.net/texture/59194973a3f17bda9978ed6273383997222774b454386c8319c04f1f4f74c2b5",
+    "uuid": "19c144be-a435-42a4-9503-83bcd8a7fa70"
+  },
+  {
+    "name": "9",
+    "url": "http://textures.minecraft.net/texture/e67caf7591b38e125a8017d58cfc6433bfaf84cd499d794f41d10bff2e5b840",
+    "uuid": "c7cad554-93b2-4176-a4ba-8de42aa9c9f2"
+  },
+  {
+    "name": "A",
+    "url": "http://textures.minecraft.net/texture/a67d813ae7ffe5be951a4f41f2aa619a5e3894e85ea5d4986f84949c63d7672e",
+    "uuid": "e8e10bc5-b94e-4378-a54c-ac71a662fec9"
+  },
+  {
+    "name": "Arrow Down",
+    "url": "http://textures.minecraft.net/texture/2dadd755d08537352bf7a93e3bb7dd4d733121d39f2fb67073cd471f561194dd",
+    "uuid": "9afa272b-ca4a-4502-8073-c4be1b741ebc"
+  },
+  {
+    "name": "Arrow Left",
+    "url": "http://textures.minecraft.net/texture/3ebf907494a935e955bfcadab81beafb90fb9be49c7026ba97d798d5f1a23",
+    "uuid": "69b9a08d-4e89-4878-8be8-551caeacbf2a"
+  },
+  {
+    "name": "Arrow Right",
+    "url": "http://textures.minecraft.net/texture/1b6f1a25b6bc199946472aedb370522584ff6f4e83221e5946bd2e41b5ca13b",
+    "uuid": "15f49744-9b61-46af-b1c3-71c6261a0d0e"
+  },
+  {
+    "name": "Arrow Up",
+    "url": "http://textures.minecraft.net/texture/d48b768c623432dfb259fb3c3978e98dec111f79dbd6cd88f21155374b70b3c",
+    "uuid": "ff1654b0-10f2-48b6-9c05-483b75f6549e"
+  },
+  {
+    "name": "B",
+    "url": "http://textures.minecraft.net/texture/50c1b584f13987b466139285b2f3f28df6787123d0b32283d8794e3374e23",
+    "uuid": "d0f793ff-b041-427c-bc24-440834e986fa"
+  },
+  {
+    "name": "C",
+    "url": "http://textures.minecraft.net/texture/abe983ec478024ec6fd046fcdfa4842676939551b47350447c77c13af18e6f",
+    "uuid": "db8ddc48-84d7-4f98-bce3-0fb2d43cd4dd"
+  },
+  {
+    "name": "D",
+    "url": "http://textures.minecraft.net/texture/3193dc0d4c5e80ff9a8a05d2fcfe269539cb3927190bac19da2fce61d71",
+    "uuid": "c142dbd3-dbdf-4f46-a491-12162d3a3e8e"
+  },
+  {
+    "name": "Dot",
+    "url": "http://textures.minecraft.net/texture/733aa24916c88696ee71db7ac8cd306ad73096b5b6ffd868e1c384b1d62cfb3c",
+    "uuid": "361e6180-ceac-4838-89e5-be46fb40fe84"
+  },
+  {
+    "name": "Dot 2",
+    "url": "http://textures.minecraft.net/texture/bd898c40e47c5d2d76924065360768065d624ee5b9ee0be9e12b98fb77c76",
+    "uuid": "2f380f4a-64c3-4b2c-af18-6c491692e649"
+  },
+  {
+    "name": "E",
+    "url": "http://textures.minecraft.net/texture/dbb2737ecbf910efe3b267db7d4b327f360abc732c77bd0e4eff1d510cdef",
+    "uuid": "96eaca3a-0f22-484f-bad7-46153597e191"
+  },
+  {
+    "name": "Exclamation",
+    "url": "http://textures.minecraft.net/texture/6a53bdd1545531c9ebb9c6f895bc576012f61820e6f489885988a7e8709a3f48",
+    "uuid": "165c8c0f-d1ba-4c9e-9836-cbff5b40ba80"
+  },
+  {
+    "name": "F",
+    "url": "http://textures.minecraft.net/texture/b183bab50a3224024886f25251d24b6db93d73c2432559ff49e459b4cd6a",
+    "uuid": "5d098233-5c27-4e8a-a36f-959c9e35041b"
+  },
+  {
+    "name": "G",
+    "url": "http://textures.minecraft.net/texture/1ca3f324beeefb6a0e2c5b3c46abc91ca91c14eba419fa4768ac3023dbb4b2",
+    "uuid": "0b017eae-cd4d-48eb-9407-863e794c4bac"
+  },
+  {
+    "name": "H",
+    "url": "http://textures.minecraft.net/texture/31f3462a473549f1469f897f84a8d4119bc71d4a5d852e85c26b588a5c0c72f",
+    "uuid": "ba7a5f3c-db71-4827-8612-ce6bd82ee992"
+  },
+  {
+    "name": "I",
+    "url": "http://textures.minecraft.net/texture/46178ad51fd52b19d0a3888710bd92068e933252aac6b13c76e7e6ea5d3226",
+    "uuid": "2ab25358-deaa-46b7-b351-d9732a448ff1"
+  },
+  {
+    "name": "J",
+    "url": "http://textures.minecraft.net/texture/3a79db9923867e69c1dbf17151e6f4ad92ce681bcedd3977eebbc44c206f49",
+    "uuid": "be1f1677-af64-4f59-85be-244f28eb1306"
+  },
+  {
+    "name": "K",
+    "url": "http://textures.minecraft.net/texture/9461b38c8e45782ada59d16132a4222c193778e7d70c4542c9536376f37be42",
+    "uuid": "4f264d8d-87a3-496a-ad1d-eda0a22a30f0"
+  },
+  {
+    "name": "L",
+    "url": "http://textures.minecraft.net/texture/319f50b432d868ae358e16f62ec26f35437aeb9492bce1356c9aa6bb19a386",
+    "uuid": "75ae0d27-f43c-416d-96a0-fdd6dbba7ab0"
+  },
+  {
+    "name": "M",
+    "url": "http://textures.minecraft.net/texture/49c45a24aaabf49e217c15483204848a73582aba7fae10ee2c57bdb76482f",
+    "uuid": "a291bc00-e8d7-42cf-8d57-588291f3ebc2"
+  },
+  {
+    "name": "N",
+    "url": "http://textures.minecraft.net/texture/35b8b3d8c77dfb8fbd2495c842eac94fffa6f593bf15a2574d854dff3928",
+    "uuid": "439f4d78-dedd-427f-9973-c3906c4df529"
+  },
+  {
+    "name": "O",
+    "url": "http://textures.minecraft.net/texture/d11de1cadb2ade61149e5ded1bd885edf0df6259255b33b587a96f983b2a1",
+    "uuid": "4ec45cf0-b927-444b-85fb-f5910bfae296"
+  },
+  {
+    "name": "P",
+    "url": "http://textures.minecraft.net/texture/a0a7989b5d6e621a121eedae6f476d35193c97c1a7cb8ecd43622a485dc2e912",
+    "uuid": "6c22192b-5af9-4d07-a96f-f95b9e81d163"
+  },
+  {
+    "name": "Q",
+    "url": "http://textures.minecraft.net/texture/43609f1faf81ed49c5894ac14c94ba52989fda4e1d2a52fd945a55ed719ed4",
+    "uuid": "047b3876-eac3-414b-8978-1c083fd8df86"
+  },
+  {
+    "name": "Question",
+    "url": "http://textures.minecraft.net/texture/5163dafac1d91a8c91db576caac784336791a6e18d8f7f62778fc47bf146b6",
+    "uuid": "210665a1-0f17-4353-b85a-426e2cb651e2"
+  },
+  {
+    "name": "R",
+    "url": "http://textures.minecraft.net/texture/a5ced9931ace23afc351371379bf05c635ad186943bc136474e4e5156c4c37",
+    "uuid": "9af104ca-dfbb-4616-9101-d10016c2b11a"
+  },
+  {
+    "name": "S",
+    "url": "http://textures.minecraft.net/texture/3e41c60572c533e93ca421228929e54d6c856529459249c25c32ba33a1b1517",
+    "uuid": "826bfe2f-387c-44d7-9cd3-fc3046a6204d"
+  },
+  {
+    "name": "Slash",
+    "url": "http://textures.minecraft.net/texture/7f95d7c1bbf3afa285d8d96757bb5572259a3ae854f5389dc53207699d94fd8",
+    "uuid": "015eeece-cc8f-46a1-acd5-cf010870730a"
+  },
+  {
+    "name": "T",
+    "url": "http://textures.minecraft.net/texture/1562e8c1d66b21e459be9a24e5c027a34d269bdce4fbee2f7678d2d3ee4718",
+    "uuid": "08c08ff3-95f3-44cc-8da3-d0e1331cf469"
+  },
+  {
+    "name": "U",
+    "url": "http://textures.minecraft.net/texture/607fbc339ff241ac3d6619bcb68253dfc3c98782baf3f1f4efdb954f9c26",
+    "uuid": "dd376034-312d-4515-9c70-eafbba1a12e4"
+  },
+  {
+    "name": "V",
+    "url": "http://textures.minecraft.net/texture/cc9a138638fedb534d79928876baba261c7a64ba79c424dcbafcc9bac7010b8",
+    "uuid": "18724f9a-8aab-4f3f-a0ff-26e4b704d53f"
+  },
+  {
+    "name": "W",
+    "url": "http://textures.minecraft.net/texture/269ad1a88ed2b074e1303a129f94e4b710cf3e5b4d995163567f68719c3d9792",
+    "uuid": "20816a64-5743-4624-8d5e-00549a64179b"
+  },
+  {
+    "name": "X",
+    "url": "http://textures.minecraft.net/texture/5a6787ba32564e7c2f3a0ce64498ecbb23b89845e5a66b5cec7736f729ed37",
+    "uuid": "33b5946c-20d1-466f-8dd5-11a0fdcd7105"
+  },
+  {
+    "name": "Y",
+    "url": "http://textures.minecraft.net/texture/c52fb388e33212a2478b5e15a96f27aca6c62ac719e1e5f87a1cf0de7b15e918",
+    "uuid": "579ec4fb-0baf-4716-89ba-1c175fbd6e3c"
+  },
+  {
+    "name": "Z",
+    "url": "http://textures.minecraft.net/texture/90582b9b5d97974b11461d63eced85f438a3eef5dc3279f9c47e1e38ea54ae8d",
+    "uuid": "0f3a3e42-4410-48a6-9d46-97392e7a6e27"
+  },
+  {
+    "name": "Ä",
+    "url": "http://textures.minecraft.net/texture/4c9c2bbd7b7f7204dceb5729a6fba7fd45d6f193f3760ec59a6807533e63b",
+    "uuid": "8a2ecdf9-9be0-4dac-90b5-560587de6772"
+  },
+  {
+    "name": "Ö",
+    "url": "http://textures.minecraft.net/texture/c83d42bcb9b8e66c16166ccf261e2f9f78c68ee7886da225e43895cdbcaf5f",
+    "uuid": "57d010fb-824f-4ab2-b34e-ba24535a94ea"
+  },
+  {
+    "name": "Ü",
+    "url": "http://textures.minecraft.net/texture/caec53e4a6d221afd7297b65e55be87913cf9cb7f4f4547f7186120701d8d",
+    "uuid": "6961d9d9-e0f8-49f8-9d25-d099a1830efe"
+  }
+]
