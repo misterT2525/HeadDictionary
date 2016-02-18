@@ -1,0 +1,19 @@
+sudo: false
+language: java
+jdk:
+- oraclejdk8
+
+script: mvn -B clean package
+after_success:
+- bash .travis-update-website.sh
+
+cache:
+  directories:
+  - "$HOME/.m2"
+branches:
+  except:
+  - gh-pages
+
+env:
+  global:
+    secure: vzIZjkbmNhrxaxrYaSVtGdPeAdFsLEU5nBAS01k3pRs/SyR8IpDrl+SKvc8l6P5qeKtpCUbtGWm09Ka/UNi4tQFU2hIY0PACVmFM/gouewHAdDDGU3PX/y1wyTRKTLFi0G2PICzno6+CHFJW/qlSJVcZhhfbmOjeq0zmkr8N6SYS+LGHeHUhC5PQaCn9tjABtuTwpq48J+PORCHduF3L3TIb2MU4JMVVx8ZkvTDtXEaTjbJwm6Sj0oGoLTmtHokapPmhKOZlssEqxA2xqnxj+hg+pZx2cFw0VnxIr4Ox05wHxj33hOQD2Myjk8bjPUcO8KDPsbTbYDFhtvnRZiaVfmuX+QBdJKvki+NCyEZ4mn1+xWMvn/oAmKjHKV8GVG15AyKGAIpQ1QX3Qd9b0x09hS9xVxPb1iXHiQDzCF7zi5u4w78NJqJQgY4NC48N7VZUt7kdbzEsDzZrCa2DGFxgP4CaXECKl8YXQ8YbOByCqJFd9KjH5GcdDiiHCnVs3giASB/m4j8HbtPIuihk/3Tmj8kONSuuvWqQX7RsAkx95Q43n/Ahqb6TEG31WBa3I+P+0Wp0lxTucn9BXFMaRd0xNEP0HXnUbmKGzVwkpC30uKp51cfFYLsZhRp4f0MBHL0ezrIJCwMNSeX7u5/EcG4jQGKikCTqHVrClU8Iw0Fz09o=
