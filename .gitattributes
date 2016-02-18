@@ -6,3 +6,6 @@
 *.yml  text
 *.json text
 *.md   text
+*.html text
+
+*.png binary
