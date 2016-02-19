@@ -14,6 +14,7 @@ import org.mcstats.Metrics;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 /**
@@ -33,6 +34,19 @@ public class HeadDictionary extends JavaPlugin {
             metrics.start();
         } catch (IOException e) {
             // Ignore
+        }
+
+        if (!getConfig().getBoolean("no_update_check", false)) {
+            new VersionChecker(this, "misterT2525/HeadDictionary", "master", result -> {
+                if (result instanceof VersionChecker.Version) {
+                    int behind = ((VersionChecker.Version) result).getBehind();
+                    if (behind > 0) {
+                        getLogger().warning("Your HeadDictionary is " + behind + " version(s) behind.");
+                    }
+                } else if (result instanceof VersionChecker.ExceptionResult) {
+                    getLogger().log(Level.WARNING, "Failed to check version", ((VersionChecker.ExceptionResult) result).getException());
+                }
+            });
         }
 
         headManager = new HeadManager(this);
