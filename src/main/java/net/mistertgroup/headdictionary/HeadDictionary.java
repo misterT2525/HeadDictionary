@@ -8,13 +8,11 @@ import net.mistertgroup.headdictionary.inventory.PagedInventoryMenu;
 
 import lombok.Getter;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.stream.Collectors;
 
 /**
  * @author misterT2525
@@ -62,7 +60,7 @@ public class HeadDictionary extends JavaPlugin {
 
     public void openHeadsMenu(Player player, String name, List<Head> heads) {
         PagedInventoryMenu menu = inventoryManager.createPagedInventoryMenu(name);
-        menu.getItems().addAll(heads.stream().<ItemStack>map(headManager::getItem).collect(Collectors.toList()));
+        heads.stream().map(headManager::getItem).forEach(menu.getItems()::add);
         menu.openInventory(player);
     }
 }
