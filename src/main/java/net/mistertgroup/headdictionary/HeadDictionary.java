@@ -1,8 +1,6 @@
 package net.mistertgroup.headdictionary;
 
 import net.mistertgroup.headdictionary.commands.HeadsCommand;
-import net.mistertgroup.headdictionary.data.Head;
-import net.mistertgroup.headdictionary.data.HeadManager;
 import net.mistertgroup.headdictionary.inventory.InventoryManager;
 import net.mistertgroup.headdictionary.inventory.PagedInventoryMenu;
 

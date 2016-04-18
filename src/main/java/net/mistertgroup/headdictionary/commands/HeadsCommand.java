@@ -1,7 +1,7 @@
 package net.mistertgroup.headdictionary.commands;
 
+import net.mistertgroup.headdictionary.Head;
 import net.mistertgroup.headdictionary.HeadDictionary;
-import net.mistertgroup.headdictionary.data.Head;
 import net.mistertgroup.headdictionary.utils.TabCompleteUtils;
 
 import com.google.common.base.Joiner;

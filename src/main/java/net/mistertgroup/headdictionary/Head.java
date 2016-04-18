@@ -1,4 +1,4 @@
-package net.mistertgroup.headdictionary.data;
+package net.mistertgroup.headdictionary;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

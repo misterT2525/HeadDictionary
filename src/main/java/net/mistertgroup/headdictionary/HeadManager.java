@@ -1,6 +1,5 @@
-package net.mistertgroup.headdictionary.data;
+package net.mistertgroup.headdictionary;
 
-import net.mistertgroup.headdictionary.HeadDictionary;
 import net.mistertgroup.headdictionary.utils.HeadUtils;
 import net.mistertgroup.headdictionary.utils.ItemUtils;
 import net.mistertgroup.headdictionary.utils.ResourcesUtils;
