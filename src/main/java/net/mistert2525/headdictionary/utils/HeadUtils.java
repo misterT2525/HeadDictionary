@@ -1,4 +1,4 @@
-package net.mistertgroup.headdictionary.utils;
+package net.mistert2525.headdictionary.utils;
 
 import com.comphenix.protocol.utility.MinecraftReflection;
 import com.comphenix.protocol.wrappers.nbt.NbtCompound;

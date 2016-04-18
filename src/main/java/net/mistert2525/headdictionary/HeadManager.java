@@ -1,8 +1,8 @@
-package net.mistertgroup.headdictionary;
+package net.mistert2525.headdictionary;
 
-import net.mistertgroup.headdictionary.utils.HeadUtils;
-import net.mistertgroup.headdictionary.utils.ItemUtils;
-import net.mistertgroup.headdictionary.utils.ResourcesUtils;
+import net.mistert2525.headdictionary.utils.HeadUtils;
+import net.mistert2525.headdictionary.utils.ItemUtils;
+import net.mistert2525.headdictionary.utils.ResourcesUtils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

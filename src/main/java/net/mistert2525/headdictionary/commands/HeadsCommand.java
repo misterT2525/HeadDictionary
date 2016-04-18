@@ -1,8 +1,8 @@
-package net.mistertgroup.headdictionary.commands;
+package net.mistert2525.headdictionary.commands;
 
-import net.mistertgroup.headdictionary.Head;
-import net.mistertgroup.headdictionary.HeadDictionary;
-import net.mistertgroup.headdictionary.utils.TabCompleteUtils;
+import net.mistert2525.headdictionary.Head;
+import net.mistert2525.headdictionary.HeadDictionary;
+import net.mistert2525.headdictionary.utils.TabCompleteUtils;
 
 import com.google.common.base.Joiner;
 import lombok.RequiredArgsConstructor;

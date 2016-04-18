@@ -4,20 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mistertgroup</groupId>
-    <artifactId>HeadDictionary</artifactId>
+    <groupId>net.mistert2525</groupId>
+    <artifactId>headdictionary</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>HeadDictionary</name>
-    <url>http://www.mistertgroup.net/</url>
+    <url>https://mistert2525.net/</url>
     <description>The plugin to get custom heads</description>
     <inceptionYear>2015</inceptionYear>
 
-    <organization>
-        <name>misterT Group</name>
-        <url>http://www.mistertgroup.net/</url>
-    </organization>
+    <properties>
+        <bukkit.plugin.main>net.mistert2525.headdictionary.HeadDictionary</bukkit.plugin.main>
+        <bukkit.plugin.authors>mrT_japan(@misterT2525)</bukkit.plugin.authors>
+    </properties>
+
     <developers>
         <developer>
             <id>misterT2525</id>

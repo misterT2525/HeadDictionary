@@ -1,8 +1,8 @@
-package net.mistertgroup.headdictionary;
+package net.mistert2525.headdictionary;
 
-import net.mistertgroup.headdictionary.commands.HeadsCommand;
-import net.mistertgroup.headdictionary.inventory.InventoryManager;
-import net.mistertgroup.headdictionary.inventory.PagedInventoryMenu;
+import net.mistert2525.headdictionary.commands.HeadsCommand;
+import net.mistert2525.headdictionary.inventory.InventoryManager;
+import net.mistert2525.headdictionary.inventory.PagedInventoryMenu;
 
 import lombok.Getter;
 import org.bukkit.entity.Player;

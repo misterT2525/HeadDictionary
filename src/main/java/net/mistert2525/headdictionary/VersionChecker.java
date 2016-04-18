@@ -1,4 +1,4 @@
-package net.mistertgroup.headdictionary;
+package net.mistert2525.headdictionary;
 
 import com.google.common.base.Charsets;
 import com.google.gson.Gson;

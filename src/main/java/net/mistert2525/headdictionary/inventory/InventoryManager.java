@@ -1,4 +1,4 @@
-package net.mistertgroup.headdictionary.inventory;
+package net.mistert2525.headdictionary.inventory;
 
 import lombok.Getter;
 import org.bukkit.Bukkit;

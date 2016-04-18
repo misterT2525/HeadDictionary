@@ -1,4 +1,4 @@
-package net.mistertgroup.headdictionary.utils;
+package net.mistert2525.headdictionary.utils;
 
 import java.util.ArrayList;
 import java.util.Collection;

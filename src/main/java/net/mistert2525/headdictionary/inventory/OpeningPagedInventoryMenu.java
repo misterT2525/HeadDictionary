@@ -1,6 +1,6 @@
-package net.mistertgroup.headdictionary.inventory;
+package net.mistert2525.headdictionary.inventory;
 
-import net.mistertgroup.headdictionary.utils.ItemUtils;
+import net.mistert2525.headdictionary.utils.ItemUtils;
 
 import lombok.Getter;
 import org.bukkit.Bukkit;

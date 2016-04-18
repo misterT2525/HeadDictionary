@@ -1,9 +1,9 @@
 name: ${project.name}
 version: ${project.version}-${git.commit.id.abbrev}
 description: ${project.description}
-author: mrT_japan(@misterT2525)
+author: ${bukkit.plugin.authors}
 website: ${project.url}
-main: net.mistertgroup.headdictionary.HeadDictionary
+main: ${bukkit.plugin.main}
 depend: [ProtocolLib]
 commands:
   heads:

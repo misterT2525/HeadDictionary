@@ -1,8 +1,7 @@
-package net.mistertgroup.headdictionary.inventory;
+package net.mistert2525.headdictionary.inventory;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
-import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
