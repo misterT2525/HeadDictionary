@@ -32,16 +32,16 @@ public class HeadDictionary extends JavaPlugin {
         }
 
         if (!getConfig().getBoolean("no_update_check", false)) {
-            new VersionChecker(this, "misterT2525/HeadDictionary", "master", result -> {
-                if (result instanceof VersionChecker.Version) {
-                    int behind = ((VersionChecker.Version) result).getBehind();
+            VersionChecker.check(this, "misterT2525/HeadDictionary", "master")
+                .whenComplete((result, throwable) -> {
+                    if (throwable != null) {
+                        getLogger().log(Level.WARNING, "Failed to check version", throwable);
+                    }
+                    int behind = result.getBehind();
                     if (behind > 0) {
                         getLogger().warning("Your HeadDictionary is " + behind + " version(s) behind.");
                     }
-                } else if (result instanceof VersionChecker.ExceptionResult) {
-                    getLogger().log(Level.WARNING, "Failed to check version", ((VersionChecker.ExceptionResult) result).getException());
-                }
-            });
+                });
         }
 
         headManager = new HeadManager(this);
